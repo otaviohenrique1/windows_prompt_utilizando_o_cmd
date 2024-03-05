@@ -59,5 +59,14 @@ shutdown => permite desligar ou reiniciar o computador de forma imediata ou agen
 date => exibe a data atual e permite alterá-la.
 - exemplo => date
 
+find => busca uma sequência de texto em um arquivo ou arquivos.
+- exemplo => find "triste" exemplo.txt
 
+exit => fecha o cmd.
+- exemplo => exit
 
+echo => Exibe mensagem no terminal.
+- exemplo => echo Ola mundo
+
+notepad => Abre o notepad pelo terminal.
+- exemplo => notepad
