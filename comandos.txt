@@ -1,0 +1,28 @@
+dir => lista diretorios
+- exemplo => dir
+
+cd => muda de diretorio
+- exemplo => cd desktop
+
+cd .. => volta um diretorio
+- exemplo => cd ..
+- exemplo => cd ../../..
+
+cd . => mostra o diretorio atual
+- exemplo => cd .
+
+tree => mostra a estrutura de diretorios do sistema
+- exemplo => tree
+
+mkdir => cria uma ou mais pastas
+- exemplo => mkdir repositorios
+
+type => mostra o conteudo de um arquivo
+- exemplo => type codigo.js
+
+help => mostra a ajuda de um comando
+- exemplo => help move
+
+move => move arquivos  para algum diretorio ou renomeia diretorios
+- exemplo => move codigo.js javascript
+- exemplo => move javascript scripts
