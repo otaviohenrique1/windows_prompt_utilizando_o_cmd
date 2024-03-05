@@ -23,6 +23,41 @@ type => mostra o conteudo de um arquivo
 help => mostra a ajuda de um comando
 - exemplo => help move
 
-move => move arquivos  para algum diretorio ou renomeia diretorios
+move => move arquivos ou diretorios para algum diretorio ou renomeia diretorios
 - exemplo => move codigo.js javascript
 - exemplo => move javascript scripts
+
+more => funciona de forma semelhante ao comando type, com a diferença de exibir pagina por pagina do arquivo no terminal, em vez de mostra-lo todo de uma vez
+- exemplo => more codigo.js
+
+copy => copia um arquivo ou diretorio
+- exemplo => copy codigo.js codigo2.js
+
+rename => renomeia um arquivo ou diretorio
+- exemplo => rename .\imagem2.png .\imagem-backup.png
+
+del => apaga um arquivo ou diretorio
+- exemplo => del .\imagem2.png
+- exemplo => del *.png => Apaga todos os arquivos com uma determinada extensao
+
+clear ou cls => limpa o terminal
+- exemplo => clear
+- exemplo => cls
+
+fc => File Compare ou "Comparação de Arquivos" (em portugues); compara dois arquivos ou grupos de arquivos e mostra as diferenças entre eles. Caso nao haja diferença, uma mensagem é exibida informando que nenhuma diferença foi encontrada.
+- exemplo => fc a.txt b.txt
+
+systeminfo => como o nome do comando sugere, ele traz informações em detalhes sobre o seu Windows.
+- exemplo => systeminfo
+
+rmdir => vimos o mkdir para criar um diretório, mas caso queiramos excluí-lo, usamos o rmdir (remove directory ou, em português, remover diretório).
+- exemplo => rmdir imagems
+
+shutdown => permite desligar ou reiniciar o computador de forma imediata ou agendada.
+- exemplo => shutdown
+
+date => exibe a data atual e permite alterá-la.
+- exemplo => date
+
+
+
