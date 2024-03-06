@@ -79,3 +79,44 @@ tar => compacta arquivos ou diretorios.
 - exemplo => tar -tf notas.zip => lista os arquivos dentro do arquivo compactado
 - exemplo => tar -xf notas.zip => extrai os arquivos
 - exemplo => tar --help => exibe a ajuda
+
+codigos do terminal:
+- 0 => entrada
+- 1 => saida
+- 2 => saida de erro
+
+rem => passa uma mensagem para quem está editando o script
+- exemplo => rem limpando a tela
+
+set => registra o nome da variavel a ser criada (as variaveis sao temporarias)
+- exemplo => set mensagem=ola mundo
+- exemplo => set /p nome=Digite seu nome= => pega o texto e coloca em uma variavel
+- imprimir variavel no terminal => echo %mensagem%
+
+echo %path% => exibe o conteudo  da variavel path
+
+setx => registra o nome da variavel a ser criada (as variaveis sao persistentes)
+- exemplo => setx path "%path%;C:\Users\Otavio\Documents\cursos\alura_cursos\EscolaDevOps\CursosWindows\Windows_Prompt_utilizando_o_CMD\windows_prompt_utilizando_o_cmd\prompt\bin" /M
+
+winget -v => versao do winget
+
+winget search => busca de pacote
+- exemplo => winget search java
+
+winget install => instalação de pacote
+- exemplo => winget install -e --id Oracle.JDK.19
+
+winget --info => exibe informações do sistema
+
+choco --v ou choco => versao do chocolatey
+
+choco install => instalação de pacote
+- exemplo => choco install nodejs
+
+choco list => lista os pacotes com um determinado nome
+- exemplo => choco list git
+
+choco list -l => lista os pacotes locais
+
+choco search => busca os pacotes com um determinado nome
+- exemplo => choco search git
