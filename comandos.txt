@@ -70,3 +70,12 @@ echo => Exibe mensagem no terminal.
 
 notepad => Abre o notepad pelo terminal.
 - exemplo => notepad
+
+pause => pausa o terminal.
+- exemplo => pause
+
+tar => compacta arquivos ou diretorios.
+- exemplo => tar -cf notas.zip NF001.xml NF002.xml => compacta
+- exemplo => tar -tf notas.zip => lista os arquivos dentro do arquivo compactado
+- exemplo => tar -xf notas.zip => extrai os arquivos
+- exemplo => tar --help => exibe a ajuda
