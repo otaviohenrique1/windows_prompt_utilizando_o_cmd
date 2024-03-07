@@ -108,6 +108,9 @@ winget install => instalação de pacote
 
 winget --info => exibe informações do sistema
 
+winget uninstall => desinstala um pacote
+- exemplo => winget uninstall firefox
+
 choco --v ou choco => versao do chocolatey
 
 choco install => instalação de pacote
@@ -120,3 +123,6 @@ choco list -l => lista os pacotes locais
 
 choco search => busca os pacotes com um determinado nome
 - exemplo => choco search git
+
+choco uninstall => desinstala um pacote
+- exemplo => choco uninstall nodejs
